@@ -18,8 +18,15 @@ Print both the values it would be interchanged
 ### Step 6: 
 End the program
 ## PROGRAM:
+~~~
+n1=int(input())
+n2=int(input())
+temp=n1
+n1=n2
+n2=temp
+print("Swapped values are: {} {}".format(n1,n2))
 
-
+~~~
 
 ## RESULT:
 Thus the swapping of two values are successfully executed
